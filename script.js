@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /* --- 1. THEME ENGINE --- */
     const toggleBtn = document.getElementById('theme-toggle');
     const htmlEl = document.documentElement;
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    const savedTheme = localStorage.getItem('theme') || 'light';
 
     htmlEl.setAttribute('data-theme', savedTheme);
     updateIcons(savedTheme);
