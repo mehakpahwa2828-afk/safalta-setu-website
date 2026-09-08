@@ -4193,8 +4193,8 @@ main,
 
 /* Our Mission hero: purpose-led editorial composition */
 .mission-site-page .mission-hero {
-    min-height: auto;
-    padding: 112px 0 72px;
+    min-height: 65vh;
+    padding: 104px 0 48px;
 }
 
 .mission-site-page .mission-hero-grid {
@@ -4205,9 +4205,9 @@ main,
 
 .mission-site-page .mission-copy h1 {
     max-width: 780px;
-    margin: 15px 0 27px;
-    font-size: clamp(3rem, 4.25vw, 4.65rem);
-    line-height: .985;
+    margin: 13px 0 24px;
+    font-size: clamp(2.8rem, 3.35vw, 3.65rem);
+    line-height: 1.01;
     letter-spacing: -.046em;
 }
 
@@ -4225,7 +4225,7 @@ main,
 }
 
 .mission-site-page .mission-copy > p.mission-hero-summary {
-    max-width: 640px;
+    max-width: 620px;
     font-size: 1rem;
     line-height: 1.68;
 }
@@ -4235,14 +4235,14 @@ main,
 }
 
 .mission-site-page .mission-people-visual {
-    min-height: 600px;
+    min-height: 510px;
 }
 
 .mission-site-page .mission-people-photo {
-    inset: 0 0 78px;
+    inset: 0 0 28px;
     border-radius: 32px 76px 32px 32px;
-    background-image: url('mission-family-guidance-v2.webp');
-    background-position: 50% 45%;
+    background-image: url('mission-student-pathways-v3.webp');
+    background-position: 50% 44%;
     box-shadow: 0 24px 64px rgba(12, 48, 31, .16);
 }
 
@@ -4296,22 +4296,22 @@ main,
         grid-template-columns: minmax(0, 1.2fr) minmax(330px, .8fr);
         gap: 38px;
     }
-    .mission-site-page .mission-copy h1 { font-size: clamp(2.7rem, 4.35vw, 3.25rem); }
-    .mission-site-page .mission-people-visual { min-height: 540px; }
+    .mission-site-page .mission-copy h1 { font-size: clamp(2.55rem, 3.8vw, 3rem); }
+    .mission-site-page .mission-people-visual { min-height: 490px; }
 }
 
 @media (max-width: 900px) {
-    .mission-site-page .mission-hero { padding: 104px 0 66px; }
+    .mission-site-page .mission-hero { min-height: auto; padding: 100px 0 58px; }
     .mission-site-page .mission-hero-grid { grid-template-columns: 1fr; gap: 38px; }
     .mission-site-page .mission-copy { text-align: left; }
     .mission-site-page .mission-copy > p.mission-hero-lead,
     .mission-site-page .mission-copy > p.mission-hero-summary { margin-inline: 0; }
     .mission-site-page .mission-copy .hero-actions { justify-content: flex-start; }
-    .mission-site-page .mission-people-visual { width: min(100%, 680px); min-height: 600px; margin: 0; }
+    .mission-site-page .mission-people-visual { width: min(100%, 680px); min-height: 560px; margin: 0; }
 }
 
 @media (max-width: 620px) {
-    .mission-site-page .mission-hero { padding: 92px 0 54px; }
+    .mission-site-page .mission-hero { padding: 90px 0 50px; }
     .mission-site-page .mission-hero-grid { gap: 32px; }
     .mission-site-page .mission-copy h1 {
         max-width: 100%;
@@ -4328,8 +4328,8 @@ main,
     .mission-site-page .mission-copy > p.mission-hero-summary { font-size: .94rem; line-height: 1.65; }
     .mission-site-page .mission-copy .hero-actions { align-items: stretch; }
     .mission-site-page .mission-copy .hero-actions a { width: 100%; justify-content: center; }
-    .mission-site-page .mission-people-visual { min-height: 510px; }
-    .mission-site-page .mission-people-photo { bottom: 78px; border-radius: 24px 54px 24px 24px; background-position: 50% 43%; }
+    .mission-site-page .mission-people-visual { min-height: 500px; }
+    .mission-site-page .mission-people-photo { bottom: 28px; border-radius: 24px 54px 24px 24px; background-position: 50% 43%; }
 }
 
 @media (max-width: 380px) {
