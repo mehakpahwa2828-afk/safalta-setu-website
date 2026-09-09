@@ -4193,21 +4193,21 @@ main,
 
 /* Our Mission hero: purpose-led editorial composition */
 .mission-site-page .mission-hero {
-    min-height: 65vh;
-    padding: 104px 0 48px;
+    min-height: auto;
+    padding: 78px 0 22px;
 }
 
 .mission-site-page .mission-hero-grid {
-    grid-template-columns: minmax(0, 1.28fr) minmax(360px, .92fr);
-    gap: clamp(42px, 5.5vw, 82px);
+    grid-template-columns: minmax(0, 1.12fr) minmax(360px, .88fr);
+    gap: clamp(56px, 5vw, 72px);
     align-items: center;
 }
 
 .mission-site-page .mission-copy h1 {
-    max-width: 780px;
-    margin: 13px 0 24px;
-    font-size: clamp(2.8rem, 3.35vw, 3.65rem);
-    line-height: 1.01;
+    max-width: 630px;
+    margin: 12px 0 21px;
+    font-size: clamp(2.85rem, 3.35vw, 3.65rem);
+    line-height: .99;
     letter-spacing: -.046em;
 }
 
@@ -4218,6 +4218,22 @@ main,
 
 .mission-headline-desktop > span { white-space: nowrap; }
 .mission-headline-mobile { display: none; }
+
+.mission-headline-desktop .mission-line-concept {
+    font-size: 1.06em;
+    font-weight: 750;
+}
+
+.mission-headline-desktop .mission-line-transition {
+    color: color-mix(in srgb, var(--text-main) 84%, transparent);
+    font-size: .94em;
+    font-weight: 500;
+}
+
+.mission-headline-desktop .mission-line-conclusion {
+    font-size: 1.02em;
+    font-weight: 700;
+}
 
 .mission-site-page .mission-copy > p.mission-hero-lead {
     margin: 0 0 11px;
@@ -4231,11 +4247,11 @@ main,
 }
 
 .mission-site-page .mission-copy .mission-hero-summary + .hero-actions {
-    margin-top: 25px;
+    margin-top: 21px;
 }
 
 .mission-site-page .mission-people-visual {
-    min-height: 510px;
+    min-height: 430px;
 }
 
 .mission-site-page .mission-people-photo {
@@ -4294,14 +4310,14 @@ main,
 @media (max-width: 1100px) {
     .mission-site-page .mission-hero-grid {
         grid-template-columns: minmax(0, 1.2fr) minmax(330px, .8fr);
-        gap: 38px;
+        gap: 56px;
     }
     .mission-site-page .mission-copy h1 { font-size: clamp(2.55rem, 3.8vw, 3rem); }
-    .mission-site-page .mission-people-visual { min-height: 490px; }
+    .mission-site-page .mission-people-visual { min-height: 425px; }
 }
 
 @media (max-width: 900px) {
-    .mission-site-page .mission-hero { min-height: auto; padding: 100px 0 58px; }
+    .mission-site-page .mission-hero { min-height: auto; padding: 92px 0 52px; }
     .mission-site-page .mission-hero-grid { grid-template-columns: 1fr; gap: 38px; }
     .mission-site-page .mission-copy { text-align: left; }
     .mission-site-page .mission-copy > p.mission-hero-lead,
